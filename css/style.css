@@ -1,0 +1,86 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #051eff;
+}
+
+header {
+    background-color: #051eff;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+    padding-left: 100px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 300%;
+    
+}
+h2{
+    margin-top: 1%;
+    color: white;
+    font-size: 400%;
+}
+.categorias{
+    width: 200px;
+    height: 70%;
+    font-size: 30px;
+    margin-left: 90%;
+    background-color: #3891c2;
+    color: brown;
+ 
+ }
+.principal {
+   width: 99vw;
+   height: 90vh;
+   background-image: url(principal.png);
+  background-repeat: no-repeat;
+   border: 1px solid rgba(0, 0, 255, 0);
+   text-align: center;
+   color: white;
+}
+.textProncipal{
+    margin-top: 30vh;
+    font-size: 600%;
+}
+
+.imgMedicamento{
+    width: 80%;
+    height: 80%;
+}
+.medicamentoContainer{
+    width: 80%;
+    height: auto;
+    margin-left: 9%;
+    margin-right: 9%;
+    align-items: center;
+    display: flex; 
+    flex-wrap: wrap; 
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+h4{
+    background-color: aqua;
+    padding: 1%;
+    margin: 2%;
+}
+.medicamento{
+    width: 30%; 
+    margin: 1%; 
+    padding: 1%;
+    box-sizing: border-box;
+    background-color: rgb(81, 81, 239);
+}
