@@ -218,5 +218,9 @@ footer > div{
     text-align: center;
 }
 .link{
+    text-decoration: none;
     color: rgb(255, 255, 255);
+}
+.link-icono{
+    text-decoration: none;
 }
