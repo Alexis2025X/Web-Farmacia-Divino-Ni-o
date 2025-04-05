@@ -12,16 +12,27 @@ body {
 header{
     display: grid;
     background: var(--color--fondo);
-    grid-template-columns: repeat(3,0.8fr);
+    /* grid-template-columns: 15% 28.33% 28.33% 28.33%; */
+    grid-template-columns: 10% 29.67% 29.67% 29.67%;
     grid-template-rows: 80px;
     text-align: center;
     align-items: center;
     width: 99%;
 }
+.logo{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    text-align: left;
+}
+.logo img{
+    width: clamp(3rem, 2.98vw, 10rem);
+    /* width: 40%; */
+    height: auto;
+}
 header>div>a{
     color: white;
     text-decoration: none;
-    font-size: clamp(1rem, 1.7vw, 7rem);
+    font-size: clamp(0.78rem, 1.7vw, 7rem);
 }
 
 header>div>a{
